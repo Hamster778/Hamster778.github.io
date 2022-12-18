@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas</title>
+    <style>
+        @font-face {
+            font-family: beer;
+            src: url("beer-money12.ttf");
+        }
+        body{
+            background-image: url("beautiful.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        header{
+            display: flex;
+            height: 90px;
+            
+            align-items: center;
+            justify-content:center;
+            font-size: 40px;
+           
+            color: rgb(255, 255, 255);
+            
+            font-size: 90px;
+            font-family: beer;
+
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin: 40px;
+        }
+        
+
+        
+        .rrr{
+            font-size: 25px;
+            width: 85%;
+            color: rgb(255, 255, 255);
+        }
+        .foot{
+            height: 20vh;
+            display: flex;
+            justify-content: space-around;
+        }
+        .foot div{
+            text-align: left;       
+        }
+        .rrr p{
+            font-size: 39vh;
+           font-family: beer;
+           position: absolute;
+           left: 600px; 
+           top: -35px;         
+        }
+        .eee img{
+           position: absolute;
+           left: 1600px;
+           top: 600px;
+            height: 250px;
+            animation: pulsing 2s infinite;
+        }
+        @keyframes pulsing{
+            0%{transform: scale(0.5,0.5);}
+            50%{transform: scale(1,1);}
+            100%{transform: scale(0.5,0.5);}
+        }
+        .ppp{
+            
+            position: absolute;
+            left: 600px;
+            top: 140px;
+
+            animation-name: example;
+            animation-duration: 4s ;
+            animation-iteration-count: infinite;
+        }
+        @keyframes example{
+            0%   { left:600px; top:140px;}
+            25%  { left:1100px; top:140px;}
+            50%  {left:1100px; top:500px;}
+             75%  { left:400px; top:500px;}
+             100% { left:400px; top:140px;}
+}
+        
+        
+    </style>
+</head>
+<body>
+    <header>Merry Christmas</header>
+    <div class="main">
+    <div class="rrr">
+        <p>2023</p>
+    </div>
+    <div class="eee"><a href="newyear21.html"><img src="free.png"></a></div>
+    <div class="ppp"><img src="pngwing.png" height="300px"></div>
+</div>
+<footer class="foot">
+   
+</footer>
+</body>
+</html>
